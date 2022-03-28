@@ -1,0 +1,111 @@
+.box6{
+    background-color: white;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    height: 600px;
+    padding: 10px 0px 10px 10px;
+}
+.m_d {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 500px;
+    height: 50px;
+    border: 1px lightblue solid;
+    border-radius: 9px;
+    font-family: 'LeeSeoyun';
+    font-weight: normal;
+    font-style: normal;
+    margin-bottom: 30px;
+  }
+  
+  
+  .t_d {
+    text-align: center;
+    margin: 10px;
+    color: lightgreen;
+  }
+  
+  
+  .calender {
+    margin: 10px 10px 10px 0px;
+  }
+  
+  
+  .sat {
+    color: blue;
+  }
+  
+  
+  .sun {
+    color: red;
+  }
+  
+  
+  
+  .calender > span {
+    margin-right: 8px;
+    font-size: small;
+  }
+  
+  
+  .w_t {
+    border: 2px dotted yellow;
+    border-radius: 50%;
+  }
+  
+  
+  .diary {
+    overflow: auto;
+    height: 420px;
+    font-family: 'KOTRA_BOLD-Bold';
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  
+  .d_b {
+    border: 1px lightgreen solid;
+    border-radius: 9px;
+    width: 500px;
+    margin-bottom: 20px;
+  }
+  
+  
+  .d_t {
+    color: lightgreen;
+    margin: 20px;
+  }
+  
+  
+  .d_c {
+    text-align: center;
+    line-height: 30px;
+    margin-bottom: 20px;
+  }
+  
+  
+  
+  .s_c {
+    display: block;
+    margin: auto;
+    height: 50px;
+    background-color: rgba(255, 192, 203, 0);
+    color: rgba(240, 248, 255, 0);
+    border: none;
+    font-family: 'KOTRA_BOLD-Bold';
+    font-weight: normal;
+    font-style: normal;
+    border-radius: 9px;
+  }
+  
+  
+  .s_c:hover {
+    background-color: lightsalmon;
+    color: white;
+    transition: 800ms ease all;
+  }
+  #s_b {
+    display: none;
+  }
+  

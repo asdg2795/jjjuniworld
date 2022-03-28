@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>2022 JUNNI HOMEPAGE</title>
+    <link rel="stylesheet" href="./static/font.css">
+    <link rel="stylesheet" href="./static/home.css">
+    <link rel="stylesheet" href="./static/layout.css">
+    <link rel="stylesheet" href="./static/diary.css">
+    <script src="https://kit.fontawesome.com/e3bde0c768.js" crossorigin="anonymous"></script>
+
+  
+  </head>
+  <body>
+    <div class="bookcover">
+      <div class="bookdot">
+        <div class="page">
+          <div class="left">
+            <div class="date">
+              TODAY <span class="today">29</span> |
+              TOTAL <span class="total">16875</span>
+            </div>
+            <div class="box1">
+              <img src="./static/m_20180802214014_dwpttxap.jpg" alt="킹아지 사진">
+              <div class="story">
+                ㄴr는 ㄱr끔 눈물을 흘린ㄷr...<br>
+                ㄱ ㅏ끔은 눈물을 참을 수 없는 내가 별루ㄷ ㅏ... <br>
+                맘이 ㅇ ㅏ ㅍ ㅏ 서.... <br>
+                소ㄹ ㅣ치며... 울 수 있 ㄷㅏ는건.... <br>
+                좋은ㄱ ㅓ ㅇ ㅑ..... <br>
+
+              </div>
+              <div class="sns">
+                junsu sns
+              </div>
+              <div class="dropbox">
+                <select name="surfing" class="select">
+                  
+                  <option value="코뮤니티로 가기">
+                    <a href="#">코뮤니티로 가기</a>
+                  </option>
+                  <option value="인스타그램으로 가기">
+                    <a href="#">인스타그램으로 가기</a>
+                  </option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="right">
+            <div class="top">
+              <div class="title">ㄴr는 ㄱr끔...</div>
+              <div class="url">https://주소/중2병..!</div>
+            </div>
+            
+          <div class="box6">
+            <div class="m_d">
+              <div class="t_d">03.22<br>Tue</div>
+              <div class="calender">
+                <span class="wd">1</span>
+                <span class="wd">2</span>
+                <span class="wd">3</span>
+                <span class="wd">4</span>
+                <span class="sat">5</span>
+                <span class="sun">6</span>
+                <span class="wd">7</span>
+                <span class="wd">8</span>
+                <span class="wd">9</span>
+                <span class="wd">10</span>
+                <span class="wd">11</span>
+                <span class="sat">12</span>
+                <span class="sun">13</span>
+                <span class="wd">14</span>
+                <span class="wd">15</span>
+                <span class="wd">16</span>
+                <span class="wd">17</span>
+                <span class="wd">18</span>
+                <span class="sat">19</span>
+                <span class="sun">20</span>
+                <span class="wd">21</span>
+                <span class="w_t">22</span>
+                <span class="wd">23</span>
+                <span class="wd">24</span>
+                <span class="wd">25</span>
+                <span class="sat">26</span>
+                <span class="sun">27</span>
+                <span class="wd">28</span>
+                <span class="wd">29</span>
+                <span class="wd">30</span>
+                <span class="wd">31</span>
+              </div>
+            </div>
+            <div class="diary">
+              <div class="d_b">
+                <div class="d_t">
+                  2022.03.10 목 18:00
+                </div>
+                <div class="d_c">
+                    ㄴr는 ㄱr끔... 막걸리를 먹는다.<br>
+                    왜냐하면 맛있거든...<br>
+                    사랑해 막걸리...♥<br>
+                </div>
+              </div>
+              <div class="d_b">
+                <div class="d_t">
+                  2022.03.20 일 17:00
+                </div>
+                <div class="d_c">
+                    ㄴr는 오늘 알바를 ㄱrㅆㄷr...<br>
+                    커피를 ㅇr직 못 만들지만<br>
+                    간단한 음료는 이제 잘만들어서 뿌듯했다.<br>
+  
+                </div>
+              </div>
+             <div class="d_b">
+              <div class="b_b">
+                <button class="diary-button font-neo" onclick="getTextFile()">
+                    <i class="fas fa-lock"></i> 준수의 비밀일기 쉿...!
+                </button>
+            </div>
+            <div class="form" id="s_b">
+                <div class="date">2022. 03. 22 화 14:50</div>
+                <div class="comment" id="s_d"></div>
+            </div>
+      
+           
+            <script>
+              function getTextFile() {
+                  var input = document.createElement("input");
+                  input.type = "file";
+                  input.accept = "text/plain";
+                  input.onchange = function (event) {
+                      processFile(event.target.files[0]);
+                  };
+                  input.click();
+              }
+      
+              function processFile(file) {
+                  var reader = new FileReader();
+                  reader.readAsText(file, "utf-8");
+      
+                  reader.onload = function () {
+                      document.getElementById("s_d").innerText = reader.result;
+                      document.getElementById("s_b").style.display = "block";
+                  };
+              }
+          </script>
+         
+              </div>
+              </div>
+              </div>
+              <div class="menu">
+                <div class="menu1">
+                  <a href="./home.html">홈</a>
+                </div>
+                <div class="menu2">
+                  <a href="./diary.html">다이어리</a>
+                </div>
+                <div class="menu3">
+                  <a href="./pic.html">사진첩</a>
+                </div>
+                <div class="menu4">
+                  <a href="#">방명록</a>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+    </div>
+  </body>
+</html>

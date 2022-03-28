@@ -1,0 +1,129 @@
+.date {
+  font-size: 12px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+
+.today {
+  color: red;
+  font-family: 'KyoboHand';
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.total {
+  color: darkgray;
+  font-weight: bold;
+  font-family: 'KyoboHand';
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.box2 {
+  
+  background-color: white;
+  border: 1px solid gainsboro;
+  border-radius: 10px;
+  height: 600px;
+  padding: 10px 0px 10px 10px;
+}
+
+
+h3 {
+  color: rgb(216, 151, 246);
+  border-bottom: 1px dashed rgb(133, 132, 132);
+  margin: 10px;
+  font-family: 'KyoboHand';
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.doghour {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+table tr:nth-child(1) th,
+table tr:nth-child(4) th {
+  background-color: red
+}
+
+
+table tr:nth-child(2) th,
+table tr:nth-child(3) th {
+  background-color: blue;
+}
+
+
+th {
+  border-radius: 4px;
+  color: white;
+  font-size: 14px;
+  padding: 5px;
+  font-family: 'NeoDunggeunmo';
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+td {
+  font-family: 'NeoDunggeunmo';
+  font-weight: normal;
+  font-style: normal;
+  padding: 5px;
+}
+
+
+p {
+  font-family: 'KOTRA_BOLD-Bold';
+  font-weight: normal;
+  font-style: normal;
+  border-bottom: 1px dotted black;
+  width: 250px;
+  margin-top: 0;
+}
+
+
+.box4 > p > span {
+  color: #d3abe2;
+  margin-left: 5px;
+  font-size: 5px;
+  font-weight: bold;
+}
+
+.miniroom img {
+  display: block;
+  width: 500px;
+  height: 330px;
+}
+.petphoto{
+  font-family: 'NeoDunggeunmo';
+  color: black;
+  margin: 20px 20px 0px 20px;
+}
+.third img{
+  width: 100%;
+  height: auto;
+}
+.photobox{
+  color: black;
+  
+  background-color: rgb(209, 209, 209);
+  margin: 20px 0px 0px 20px;
+  padding: 7px 0px 10px 7px;
+  font-family: 'NeoDunggeunmo';
+}
+.other{
+  margin-top: 60px;
+}
+
+
+.container{
+overflow: auto;
+}
